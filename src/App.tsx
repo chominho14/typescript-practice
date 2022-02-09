@@ -1,5 +1,4 @@
-import styled, { createGlobalStyle, keyframes } from "styled-components";
-import React, { useState } from "react";
+import { createGlobalStyle } from "styled-components";
 import Router from "./Router";
 
 const GlobalStyle = createGlobalStyle`
