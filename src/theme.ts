@@ -10,6 +10,6 @@ export const darkTheme: DefaultTheme = {
 export const lightTheme: DefaultTheme = {
   bgColor: "whitesmoke",
   textColor: "black",
-  accentColor: "#A09698",
-  hoverColor: "#FFEBEE",
+  accentColor: "#AEBFBE",
+  hoverColor: "#F5F5F6",
 };
