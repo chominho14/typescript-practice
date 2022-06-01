@@ -58,10 +58,14 @@ function Chart({ coinId }: ChartProps) {
             grid: { show: false },
             stroke: {
               curve: "smooth",
-              width: 4,
+              width: 3,
             },
             yaxis: {
-              show: false,
+              labels: {
+                formatter: function (val) {
+                  return val.toFixed(2);
+                },
+              },
             },
             xaxis: {
               labels: { show: false },
