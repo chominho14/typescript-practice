@@ -1,13 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import {
-  useQuery,
-  useMutation,
-  useQueryClient,
-  QueryClient,
-  QueryClientProvider,
-} from "react-query";
+import { QueryClient, QueryClientProvider } from "react-query";
 import { RecoilRoot } from "recoil";
 
 const queryClient = new QueryClient();
